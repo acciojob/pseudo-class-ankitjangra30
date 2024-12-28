@@ -1,20 +1,23 @@
-/*  your css code here. If applicable */
 /* styles.css */
 
 #container {
   margin: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
 }
 
 #container::before {
-  content: "Before Element ";
+  content: "This is text before the container.";
   color: #f00;
   font-size: 20px;
+  display: block;
   margin-bottom: 10px; 
 }
 
 #container::after {
-  content: "After Element";
+  content: "This is text after the container.";
   color: #f00;
   font-size: 20px;
+  display: block;
   margin-top: 10px; 
 }
